@@ -1,0 +1,29 @@
+.nav{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.recipes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.name{
+    padding 10px;
+    color: black;
+    font-style: italic;
+}
+
+.ing{
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 10px;
+    font-style: oblique;
+}
+
+.info{
+    color: white;
+}

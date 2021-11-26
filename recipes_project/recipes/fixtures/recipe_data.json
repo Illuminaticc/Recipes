@@ -1,0 +1,62 @@
+[
+  {
+    "model": "recipes.Ingredient",
+    "pk": 1,
+    "fields": {
+      "name": "Лосось"
+    }
+  },
+    {
+    "model": "recipes.Ingredient",
+    "pk": 2,
+    "fields": {
+      "name": "Рис"
+    }
+  },
+      {
+    "model": "recipes.Ingredient",
+    "pk": 3,
+    "fields": {
+      "name": "Васаби"
+    }
+  },
+        {
+    "model": "recipes.Ingredient",
+    "pk": 4,
+    "fields": {
+      "name": "Сыр"
+    }
+  },
+        {
+    "model": "recipes.Ingredient",
+    "pk": 5,
+    "fields": {
+      "name": "Тесто"
+    }
+  },
+        {
+    "model": "recipes.Ingredient",
+    "pk": 6,
+    "fields": {
+      "name": "Колбаса"
+    }
+  },
+  {
+    "model": "recipes.Recipe",
+    "pk": 1,
+    "fields": {
+      "name": "Суши",
+      "description": "Суши из риса и рыбы",
+      "ingredients":  [1, 2, 3]
+    }
+  },
+  {
+    "model": "recipes.Recipe",
+    "pk": 2,
+    "fields": {
+      "name": "Пицца",
+      "description": "Пицца пепперони",
+      "ingredients":  [4, 5, 6]
+    }
+  }
+]

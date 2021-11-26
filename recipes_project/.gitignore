@@ -1,0 +1,12 @@
+.sqlite3
+.env
+.env.secret
+.vscode
+staticfiles/
+media/
+postgres/
+!postgres/.gitkeep
+venv/
+collected_static/
+.DS_Store
+pycache
