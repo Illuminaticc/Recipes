@@ -1,5 +1,6 @@
+.idea/
 .sqlite3
-.env
+recipes_project/.env
 .env.secret
 .vscode
 staticfiles/
